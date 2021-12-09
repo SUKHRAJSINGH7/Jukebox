@@ -8,11 +8,42 @@
     <!-- import css: -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/global.css">
-    <title>Your App</title>
+    <title>JukeBox</title>
 </head>
 
 <body>
-    Implement you app here, <a href="demo.html">See the demo</a>
+    <header>
+        <h1>JukeBox</h1>
+    </header>
+
+    <template id="template">
+        <li>
+          <h2 class="outline"></h2>
+          <img id="pics" src="">
+          <button id="sound-button">🎼</button>
+        </li>
+      </template>
+
+    <main>
+        <ul id="list">
+            <!-- <li>
+              <h2>Dog</h2>
+              <img id="Dog" src="https://images.unsplash.com/photo-1600077106724-946750eeaf3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHVwcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+              <button id="dog-sound"></button>
+            </li>
+            <li>
+                <h2>Jaguar</h2>
+                <img id="Jaguar" src="https://images.unsplash.com/photo-1601544359642-c76c4f7c3221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGphZ3VhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <button id="Jaguar-sound"></button>
+            </li>
+            <li>
+                <h2>Wolf</h2>
+                <img id="wolf" src="https://media.istockphoto.com/photos/portrait-of-a-male-wolf-picture-id1270419897?b=1&k=20&m=1270419897&s=170667a&w=0&h=k6-rEbBmwHt40Nvfdv5dAtUj1C-SF-F36nrsO_nkrPY=" alt="">
+                <button id="wolf-sound"></button>
+            </li> -->
+        </ul>    
+            <audio id="audio"></audio>
+    </main>
 
     <script src="app.js" type="module"></script>
 </body>

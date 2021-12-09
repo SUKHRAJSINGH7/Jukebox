@@ -46,7 +46,7 @@ ul {
 }
 
 li {
-  width: 175px;
+  width: 200px;
   height: 145px;
   display: grid;
   grid-template-rows: autos 1fr auto;
